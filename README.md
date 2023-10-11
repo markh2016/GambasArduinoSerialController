@@ -9,7 +9,7 @@ A fully interactive serial port controller that both recieves and returns curren
 The  project can  be modified  both within arduino  code and also Gambas application code to do far more than  just this
 but is the prefect  way to start a  project that will advance you into high level langauges  do something  highly usefull  for industrial or domestic applications
 
-![Gambas GUI Serial Interface ](https://github.com/markh2016/GanbasSerialController/blob/main/ArduinoCoding)?raw=true "Gambas Arduino Serial Port controller"
+![Gambas GUI Serial Interface ](images/ArduinoCoding)?raw=true "Gambas Arduino Serial Port controller"
 
 Code  for the main form class is as below for those whishing to see this although you can see all simply by changing settings on your folder  view
 
@@ -563,11 +563,11 @@ void setup() {
     }
   
 }
-'''
+```
 
 ## Diagram for Arduino  connections 
 
-![Getting Started](layout.jpg) 
+![Getting Started](images/layout.jpg) 
 
 
 
@@ -584,7 +584,7 @@ Do the following
 
 Please see image below for better illustration
 
-![Project properties](ProjectSettings.png)
+![Project properties](/images/ProjectSettings.png)
 
 
 Your ready to start writing code 
