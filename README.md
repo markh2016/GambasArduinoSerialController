@@ -13,7 +13,7 @@ This is done by issuing the following commands
 You may have to refer to this commands  direcectly if usr/sbin is not included  in your users path settings 
 
 If this is the case then you can either add this path to ~./bashrc  or you can for now to issue commands below  refer to the command 
-directley  eg  sudo /usr/sbin/usermod -aG <group you need to be part of > $USER
+directley  eg  sudo /usr/sbin/usermod -aG "Your Group"  $USER
 
 su - to place you in super user context 
 
