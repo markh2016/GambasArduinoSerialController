@@ -10,6 +10,11 @@ A fully interactive serial port controller that both recieves and returns curren
 You must  be a member of tty and dialout groups 
 This is done by issuing the following commands 
 
+You may have to refer to this commands  direcectly if usr/sbin is not included  in your users path settings 
+
+If this is the case then you can either add this path to ~./bashrc  or you can for now to issue commands below  refer to the command 
+directley  eg  sudo /usr/sbin/usermod -aG <group you need to be part of > $USER
+
 su - to place you in super user context 
 
 sudo usermod -aG dialout $USER 
